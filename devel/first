@@ -1,0 +1,39 @@
+print('Welcome to the career test. Please answer all questions with a Y or N, Y for yes, N for no. These questions will hopefully give you a better understanding of what you want for your career.')
+
+
+print('Do you enjoy math?')
+ans = input()
+if ans == 'N' :
+    print('Do you enjoy drawing?')
+    ans5 = input()
+    if ans5 == 'N' :
+        print('Do you enjoy animals?')
+        ans7 = input()
+        if ans7 == 'N' :
+            print('You should work in customer service! Thank you for using this program.')
+        if ans7 == 'Y' :
+            print('You should be a vet! Thank you for using this program.')
+    if ans5 == 'Y' :
+        print('Do you enjoy film?')
+        ans6 = input()
+        if ans6 == 'N' :
+            print('You should be a sketch artist! Thank you for using this program.')
+        if ans6 == 'Y' :
+            print('You should be an animator! Thank you for using this program.')
+if ans == 'Y' :
+    print('Do you enjoy science?')
+    ans2 = input()
+    if ans2 == 'N' :
+        print('Are you tech savy?')
+        ans4 = input()
+        if ans4 == 'Y' :
+            print('You should be a computer programmer! Thank you for using this program.')
+        if ans4 == 'N' :
+            print('You should be a mathematician! Thank you for using this program.')
+    if ans2 == 'Y' :
+        print('Do you enjoy the stars?')
+        ans3 = input()
+        if ans3 == 'N' :
+            print('You should be a chemist! Thank you for using this program.')
+        if ans3 == 'Y' :
+            print('You should be an astronomer! Thank you for using this program.')
