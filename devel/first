@@ -1,39 +1,39 @@
 print('Welcome to the career test. Please answer all questions with a Y or N, Y for yes, N for no. These questions will hopefully give you a better understanding of what you want for your career.')
 
 
-print('Do you enjoy math?')
+print('Do you enjoy math?') 
 ans = input()
-if ans == 'N' :
+if ans == 'N' or ans == 'n' :
     print('Do you enjoy drawing?')
     ans5 = input()
-    if ans5 == 'N' :
+    if ans5 == 'N' or ans5 == 'n' :
         print('Do you enjoy animals?')
         ans7 = input()
-        if ans7 == 'N' :
+        if ans7 == 'N' or ans7 == 'n' :
             print('You should work in customer service! Thank you for using this program.')
-        if ans7 == 'Y' :
+        if ans7 == 'Y' or ans7 == 'y' :
             print('You should be a vet! Thank you for using this program.')
-    if ans5 == 'Y' :
+    if ans5 == 'Y' or ans5 == 'y' :
         print('Do you enjoy film?')
         ans6 = input()
-        if ans6 == 'N' :
+        if ans6 == 'N' or ans6 == 'n' :
             print('You should be a sketch artist! Thank you for using this program.')
-        if ans6 == 'Y' :
+        if ans6 == 'Y' or ans6 == 'y' :
             print('You should be an animator! Thank you for using this program.')
-if ans == 'Y' :
+if ans == 'Y' or ans == 'y' :
     print('Do you enjoy science?')
     ans2 = input()
-    if ans2 == 'N' :
+    if ans2 == 'N' or ans2 == 'n' :
         print('Are you tech savy?')
         ans4 = input()
-        if ans4 == 'Y' :
+        if ans4 == 'Y' or ans4 == 'y' :
             print('You should be a computer programmer! Thank you for using this program.')
-        if ans4 == 'N' :
+        if ans4 == 'N' or ans4 == 'n' :
             print('You should be a mathematician! Thank you for using this program.')
-    if ans2 == 'Y' :
+    if ans2 == 'Y' or ans2 == 'y' :
         print('Do you enjoy the stars?')
         ans3 = input()
-        if ans3 == 'N' :
+        if ans3 == 'N' or ans3 == 'n' :
             print('You should be a chemist! Thank you for using this program.')
-        if ans3 == 'Y' :
+        if ans3 == 'Y' or ans3 == 'y' :
             print('You should be an astronomer! Thank you for using this program.')
